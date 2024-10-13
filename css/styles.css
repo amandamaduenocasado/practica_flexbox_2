@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    position: relative;
+    background-color: #19A1AE;
+    font-family: "Kumbh Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 147px;
+  }
+  
+  
+  .background-top {
+    position: absolute;
+    width: 622px;
+    height: 621px;
+    right: 140px;
+    top: -500px;
+    z-index: -1;
+  }
+
+  @media screen and (width > 768px) {
+    .background-top {
+        left: 140px;
+    }
+  }
+
+  .background-bottom {
+    position: absolute;
+    width: 622px;
+    height: 621px;
+    left: 140px;
+    top: 250px;
+    z-index: -1;
+    rotate: 45deg;
+  }
+
+  @media screen and (width > 768px) {
+    .background-bottom {
+        left: 720px;
+
+    }
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-card {
+    background-color: #FFFFFF;
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    box-shadow: 0 50px 20 rgba(8, 70, 94, 0.5);
+  }
+
+  .background-card {
+    position: absolute;
+    width: 326px;
+    height: 140px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .header-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+  .face {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    border: 5px solid #FFFFFF;
+    border-radius: 100%;
+    top: 90px;
+  }
+
+  .name-card {
+    font-size: 18px;
+    font-weight: 700;
+    color: #08465E;
+    position: relative;
+    bottom: 170px;
+    margin: 0;
+  }
+
+  .age-card {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B7082;
+  }
+
+  .city-card {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7082;
+    position: relative;
+    bottom: 160px;
+    margin: 0;
+  }
+
+  .line-card {
+    width: 326px;
+    height: 1px;
+    background-color: #E8E9EC;
+    position: relative;
+    bottom: 135px;
+  }
+
+  .info-card {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E3349;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 135px;
+    margin-left: 59px;
+    margin-right: 56.5px;
+  }
+
+  .info-card-two {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 165px;
+    margin-left: 48.5px;
+    margin-right: 55.5px;
+  }
+
+  .likes-card-two {
+    margin-right: 10px;
+  }
+
